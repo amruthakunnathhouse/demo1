@@ -1,6 +1,8 @@
 //import node modules
 import React, { useState, useEffect } from 'react';
+import 'semantic-ui-css/semantic.min.css';
 import { Header, Radio, Dropdown } from 'semantic-ui-react';
+
 import axios from 'axios';
 import { graphql, useStaticQuery } from "gatsby";
 
